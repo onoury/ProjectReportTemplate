@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reportStyles.css">
+    <title>Project Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs/lib/browser/math.js"></script>
+</head>
+<body>
+    <div class="projectReport">
+        <div class="reportTOC">
+            <div class="TOCLinkDiv">
+                <a href="#intro" class="mainTOC proxBold active">
+                    INTRODUCTION
+                </a>
+                <a href="#theStiffnessMethod" class="subTOC proxBold">
+                    The Stiffness Method
+                </a>
+                <a href="#dataStructures" class="subTOC proxBold">
+                    Data Structures
+                </a>
+                <a href="#Modeling" class="mainTOC proxBold">
+                    MODELING
+                </a>
+                <a href="#nodesAndElements" class="subTOC proxBold">
+                    Coordinate System Calculations
+                </a>
+                <a href="#genAdjMatrix" class="subTOC proxBold">
+                    The Adjacency Matrix
+                </a>
+                <a href="#genStiffMatrix" class="subTOC proxBold">
+                    The Stiffness Matrix
+                </a>
+                <a href="#genDispAndForceMatrix" class="subTOC proxBold">
+                    The Displacement and Force Matrices
+                </a>
+                <a href="#Solution" class="mainTOC proxBold">
+                    SOLUTION
+                </a>
+                <a href="#solvingBoundaryConditions" class="subTOC proxBold">
+                    Boundary Conditions
+                </a>
+                <a href="#partitioningAndsimplifying" class="subTOC proxBold">
+                    Partioning / Simplifying
+                </a>
+                <a href="#systemOfEquationsSolver" class="subTOC proxBold">
+                    Solving the system of equations
+                </a>
+                <a href="#solvingForElementalForces" class="subTOC proxBold">
+                    Finding Normal stresses
+                </a>
+                <a href="#Conclusion" class="mainTOC proxBold">
+                    CONCLUSION
+                </a>
+                <a href="#nextSteps" class="subTOC proxBold">
+                    Next Steps
+                </a>
+            </div>
+        </div>
+        <div class="reportDiv">
+            <div class="reportHeaderDiv">
+                <div class="Title-Subtitle">
+                    <p class="reportH1 proxBold">ENGR 492 Course Project # 2</p>
+                    <p class="reportSub1 adelleReg">Two-Dimensional Static Truss Analysis</p>
+                </div>
+                <p class="authors">
+                    <!-- <span>Omar Noury<br> #73735524</span> -->
+                    <!-- <span>Taymour Metwalli<br> #15770787</span> -->
+                </p>
+            </div>
+            <hr>
+            <div class="reportBodyDiv">
+                <section id="intro">
+                    <p class="reportH2 proxBold">Introduction</p>
+                    <section id="theStiffnessMethod">
+                        <p class="reportH3 proxBold">The Stiffness Method</p>
+                    </section>
+                    <section id="dataStructures">
+                        <p class="reportH3 proxBold">Data Structures</p>
+                    </section>
+                </section>
+                <section id="Modeling">
+                    <p class="reportH2 proxBold">Modeling</p>
+                    <section id="nodesAndElements">
+                        <p class="reportH3 proxBold">Coordinate System Calculations</p>
+                    </section>
+                    <section id="genAdjMatrix">
+                        <p class="reportH3 proxBold">The Adjacency Matrix</p>
+                    </section>
+                    <section id="genStiffMatrix">
+                        <p class="reportH3 proxBold">The Stiffness Matrix</p>
+                    </section>
+                    <section id="genDispAndForceMatrix">
+                        <p class="reportH3 proxBold">The Displacement and Force Matrices</p>
+                    </section>
+                </section>
+                <section id="Solution">
+                    <p class="reportH2 proxBold">Solution</p>
+                    <section id="solvingBoundaryConditions">
+                        <p class="reportH3 proxBold">Boundary Conditions</p>
+                    </section>
+                    <section id="partitioningAndsimplifying">
+                        <p class="reportH3 proxBold"> Partioning / Simplifying</p>
+                    </section>
+                    <section id="systemOfEquationsSolver">
+                        <p class="reportH3 proxBold">Solving the system of equations</p>
+                    </section>
+                    <section id="solvingForElementalForces">
+                        <p class="reportH3 proxBold">Finding Normal stresses</p>
+                    </section>
+                </section>
+                <section id="Conclusion">
+                    <p class="reportH2 proxBold">Conclusion</p>
+                    <section id="nextSteps">
+                        <p class="reportH3 proxBold">Next Steps</p>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div> thank you for listening</div>
+    </footer>
+</body>
+<script type="module" src="reportScript.js"></script>
+</html>
